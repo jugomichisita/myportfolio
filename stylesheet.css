@@ -149,10 +149,11 @@ ul {
 header {
   padding: 15px 0;
   position: fixed;
-  opacity: 0.9;
-  background-color: rgba(255, 255, 255, 0.6);
+  /* opacity: 0.9; */
+  background-color: #000;
   /* background-color: pink; */
   width: 100%;
+  z-index: 1000;
 }
 
 .header-menu {
@@ -163,6 +164,7 @@ header {
   font-size: 25px;
   letter-spacing: 5px;
   white-space: nowrap;
+  color: #fff;
 }
 
 .header-right {
@@ -179,7 +181,8 @@ header {
   display: flex;
 }
 
-.nav-list li {
+.nav-list li a{
+  color: #fff;
   font-size: 16px;
   letter-spacing: 3px;
   padding: 0 25px;
@@ -438,6 +441,7 @@ textarea::placeholder {
   width: 200px;
   padding: 20px 0;
   box-shadow: #ccc;
+  background-color: #cccccc;
   cursor: pointer;
 }
 
@@ -554,8 +558,8 @@ textarea::placeholder {
     width: 48px;
     height: 48px;
     /* 最前面に */
-    z-index: 10;
-    /* background-color: rgba(255, 255, 255, 0); */
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0);
     /* background-color: red; わかりやすいように */
   }
   /***** 真ん中のバーガー線 *****/
@@ -564,7 +568,7 @@ textarea::placeholder {
     position: relative;  /* バーガー線の位置基準として設定 */
     width: 100%;  /* 線の長さと高さ */
     height: 4px;
-    background-color: #444;  /* バーガー線の色 */
+    background-color: #fff;  /* バーガー線の色 */
     transition: .2s;
   }
   /****** 上下のバーガー線 *****/
@@ -574,7 +578,7 @@ textarea::placeholder {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #444;
+    background-color: #fff;
     transition: .5s;
   }
   .btn-line::before {
@@ -639,7 +643,7 @@ textarea::placeholder {
   }
 
   .mainimg {
-    
+    padding-top: 77px;
   }
 
   .contents {
@@ -692,6 +696,7 @@ textarea::placeholder {
   display: block;
   width: 100%;
   border-bottom: none;
+
   }
 }
 
