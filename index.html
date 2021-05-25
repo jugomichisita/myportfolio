@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>My Portofolio</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   </head>
   <body>
     <header>
@@ -24,6 +24,7 @@
             </ul>
             <nav>
               <ul class="menu">
+                <li class="menu-list"><a href="#home">Home</a></li>
                 <li class="menu-list"><a href="#about">About</a></li>
                 <li class="menu-list"><a href="#skills">Skills</a></li>
                 <li class="menu-list"><a href="#works">Works</a></li>
@@ -39,11 +40,9 @@
       </div><!--container--> 
     </header>
 
- 
-
    <div class="top-wrapper">
-    <img class="mainimg" src="./topphoto.png" alt="">
-   </div>
+     <img class="mainimg" src="./topphoto.png" alt="" id="home">
+   </div><!--top-wrapper-->
 
    <section class="about-wrapper" id="about">
     <div class="container">
@@ -53,11 +52,15 @@
           <img src="./Myphoto.png6.png" alt="">
         </div><!--myphoto-->
        <div class="about-text">
-        <p class="name">道下 十吾  Michishita jugo</p>
-        <p><i class="fab fa-twitter-square"></i>Twitter:
-        <a href="https://twitter.com/jm774352291">@jm774352291</a></p>
-        <p><i class="fab fa-github"></i>github: <a href="">github</a></p>
-        <p class="main-text">大阪出身の京都産業大学3回生です。SNSで無形商材を販売するDRMを一年間程した後、Webでの知識を更に身につけるべく、独学や大学の授業にてWeb制作を学び始めました。特にフロントエンジニアに興味を持っております。ITが主流となっていく今後の将来において、ITでの”モノ作り”を通して人に喜んでもらう事、お役に立てる事を目指しております。</p>
+        <p class="name">道下 十吾</p>
+          <span class="small">Michishita jugo</span>
+          <div class="about-sns">
+            <a href="https://twitter.com/jm774352291" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+          </a>
+        <a href="https://github.com/jugomichisita" target="_blank"><i class="fab fa-github "></i></a>
+          </div>
+        <p class="main-text">大阪出身の京都産業大学3回生です。SNSでDRMを一年間程した後、Webでの知識を更に身につけるべく、独学や大学の授業にてWeb制作を学び始めました。特にフロントエンジニアに興味を持っております。ITが主流となっていく今後の将来において、ITでの”モノ作り”を通して人に喜んでもらう事、お役に立てる事を目指しております。</p>
        </div><!--about-text-->
       </div><!--contents-->
     </div><!--container-->
