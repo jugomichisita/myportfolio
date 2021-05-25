@@ -571,7 +571,6 @@ textarea::placeholder {
     /* 最前面に */
     z-index: 100;
     background-color: rgba(255, 255, 255, 0);
-    /* background-color: red; わかりやすいように */
   }
   /***** 真ん中のバーガー線 *****/
   .btn-line {
